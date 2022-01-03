@@ -14,34 +14,46 @@
     <title>Photo Gallery</title>
   </head>
   <body>
-    <div class="menu">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html">Croissants</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="/index.html">Home</a>
-              <a class="nav-link active" aria-current="page" href="/photo.html"
-                >Photo Gallery</a
-              >
-              <a class="nav-link" href="/contact.html">Contact Us</a>
+    <div class="container">
+      <div class="menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Croissants</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="/index.html">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/photo.html"
+                  >Photo Gallery</a
+                >
+                <a class="nav-link" href="/contact.html">Contact Us</a>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
+      <h1 class="center mt-5 mb-5">Photo Gallery</h1>
+      <div id="gallery" class="center">
+        <img
+          src="/images/yummy-croissants.jpg"
+          class="img-fluid p-3 border rounded-3"
+          alt="Yummy Croissants"
+        />
+      </div>
     </div>
-    <h1 class="center mt-5">Photo Gallery</h1>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
